@@ -5,7 +5,7 @@ import MobileNav from './MobileNav'
 
 const Navbar = () => {
   return (
-    <nav className="flex-between fixed z-50 w-full bg-dark-1 px-6 py-4 lg:px-10">
+    <nav className=" flex flex-between fixed z-50 w-full bg-dark-1 px-6 py-4 lg:px-10">
 
       <Link href="/" className="flex items-center gap-1">
         <Image
@@ -20,7 +20,7 @@ const Navbar = () => {
         </p>
       </Link>
 
-      <div className=' flex-between gap-5'>
+      <div className=' flex flex-between gap-5'>
         {/* clerk authentication */}
 
         <MobileNav />
