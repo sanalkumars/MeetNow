@@ -2,6 +2,15 @@
   @tailwind components;
   @tailwind utilities;
 
+  @layer utilities {
+    .flex-center{
+      @apply flex justify-center items-center;
+    }
+    .flex-between{
+      @apply flex justify-center items-center;
+    }
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -54,6 +63,10 @@
   }
   
   /* ==== clerk class override ===== */
+
+  .cl-providerIcon__github{
+    filter: invert(1);
+  }
   
   .cl-userButtonPopoverActionButtonIcon {
     color: white;
