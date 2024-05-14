@@ -28,7 +28,7 @@ const Table = ({
   );
 };
 
-const personalRoom = () => {
+const PersonalRoom = () => {
   const router = useRouter();
   const { user } = useUser();
   const client = useStreamVideoClient();
@@ -85,4 +85,4 @@ const personalRoom = () => {
 
 }
 
-export default personalRoom
+export default PersonalRoom
